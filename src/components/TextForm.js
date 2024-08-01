@@ -5,7 +5,7 @@ const handleclick=()=>{
     console.log('uppper case is clicked' + text);
     let newText =text.toUpperCase();
     setText(newText);
-}
+}  
 const handleOnChange=(event)=>{
     console.log('on change');
     setText(event.target.value);
