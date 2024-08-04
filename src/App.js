@@ -8,14 +8,14 @@ const [Mode,setMode]= useState('dark')
 
 const toggleMode=()=>{
   if(Mode === 'dark'){
-    setMode=('light');
+    setMode('light');
   }
   else {
-    setMode=('dark')
+    setMode('dark')
   }
 }
   return (
-    <><  NavBar title="SarthITECH" aboutText="about SarthiI" mode={Mode} toggleMode={toggleMode}/>
+    <><  NavBar title="SarthiiTECH" aboutText="about SarthiI" mode={Mode} toggleMode={toggleMode}/>
     <div className="container" ><TextForm heading="how is the form" /></div>
   <div className="container">  <About/></div>
     </>
